@@ -1,3 +1,3 @@
 # Results-Summary
 
-Order summary component created to Frontent mentor
+Result summary component created to Frontent mentor
