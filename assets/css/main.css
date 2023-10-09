@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container-score {
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.container-score, .container-topics, main{
+    border-radius: 2rem;
+}
+
+.score{
+    height: 125px;
+    width: 125px;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));;
+}
+
+.white-color {
+    color: hsl(0, 0%, 100%);
+}
+
+.paleblue-color {
+    color: hsl(221, 100%, 96%);
+}
+
+.lightlavender-color {
+    color: hsl(241, 100%, 89%);
+}
+
+.darkgrayblue-color {
+    color: hsl(224, 30%, 27%);
+}
+
+.lightred-color {
+    color: hsl(0, 100%, 67%);
+}
+
+.orangeyellow-color {
+    color: hsl(39, 100%, 56%);
+}
+
+.greenteal-color {
+    color: hsl(166, 100%, 37%);
+}
+
+.cobaltblue-color {
+    color: hsl(234, 85%, 45%);
+}
+
+.lightred-bg {
+    background-color: hsl(0 100% 67% / 15%);
+}
+
+.orangeyellow-bg {
+    background-color: hsl(39 100% 56% / 15%);
+}
+
+.greenteal-bg {
+    background-color: hsl(166 100% 37% / 15%);
+}
+
+.cobaltblue-bg {
+    background-color: hsl(234 85% 45% / 15%);
+}
+
+.darkgrayblue-bg {
+    background-color: hsl(224, 30%, 27%);
+}
+
+.btn.darkgrayblue-bg:hover, .btn.darkgrayblue-bg:active{
+    background-color: hsl(224, 30%, 27%);
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%)) !important;
+    color: white !important;
+    border: 1px solid transparent;
+}
+
+@media screen and (max-width: 520px){
+    main{
+        height: 100%;
+        border-radius: 0 !important;
+    }
+
+    .container-score{
+        border-top-right-radius: 0 !important;
+        border-top-left-radius: 0 !important;
+    }
+}
